@@ -4,6 +4,8 @@
 
 Rosario's Enigma Encryption Tool is a secure password management system inspired by the concept of the Enigma machine. It provides a unique, interactive way to set up and validate passwords using a color-coded grid system and directional inputs.
 
+![Rosario's Enigma](https://github.com/DylanCkawalec/ros-enigma/assets/43707795/67b37056-834a-43c0-8378-e9b4f3c5562d)
+
 ## Features
 
 - Secure password encryption using `AES-256-GCM`
