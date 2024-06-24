@@ -1,0 +1,31 @@
+[package]
+name = "ros-enigma"
+version = "0.1.2"
+edition = "2021"
+authors = ["Dylan Kawalec, Dylan Rosario"]
+description = "Rosario's Enigma: A Rust library for secure cryptographic operations based on symbolic and directional mappings."
+license = "MIT"
+repository = "https://github.com/yourusername/ros-enigma"
+homepage = "https://github.com/yourusername/ros-enigma"
+documentation = "https://github.com/yourusername/ros-enigma"
+readme = "README.md"
+keywords = ["cryptography", "encryption", "security", "rust"]
+categories = ["cryptography", "security", "algorithms"]
+
+[dependencies]
+aes-gcm = "0.10.1"
+base64 = "0.22.1"
+colored = "2.0.0"
+crossterm = "0.27.0"
+hmac = "0.12.1"
+pbkdf2 = "0.12.2"
+rand = "0.8.5"
+rpassword = "7.2.0"
+serde = { version = "1.0.152", features = ["derive"] }
+serde_json = "1.0.93"
+sha2 = "0.10.6"
+zxcvbn = "3.0.1"
+
+
+[dev-dependencies]
+tokio = { version = "1", features = ["full"] }
